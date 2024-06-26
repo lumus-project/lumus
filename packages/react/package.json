@@ -21,6 +21,6 @@
     },
     "homepage": "https://github.com/lumus-project/lumus#readme",
     "dependencies": {
-        "@lumus/engine": "^0.0.12"
+        "@lumus/engine": "^0.0.1"
     }
 }
