@@ -1,6 +1,6 @@
 {
     "name": "@lumus-ui/templates",
-    "version": "0.0.7",
+    "version": "0.0.1",
     "description": "Functional component templates",
     "private": true,
     "main": "index.ts",
@@ -9,12 +9,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/venututor/munch-ui.git"
+        "url": "git+https://github.com/lumus-project/lumus.git"
     },
     "author": "",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/venututor/munch-ui/issues"
+        "url": "https://github.com/lumus-project/lumus/issues"
     },
-    "homepage": "https://github.com/venututor/munch-ui#readme"
+    "homepage": "https://github.com/lumus-project/lumus#readme"
 }

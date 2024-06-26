@@ -1,6 +1,6 @@
 {
     "name": "@lumus-ui/react",
-    "version": "0.0.12",
+    "version": "0.0.1",
     "description": "All UI components resides here.",
     "main": "./index.ts",
     "scripts": {
@@ -12,14 +12,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/venututor/munch-ui.git"
+        "url": "git+https://github.com/lumus-project/lumus.git"
     },
     "author": "Venugopal Sundaram",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/venututor/munch-ui/issues"
+        "url": "https://github.com/lumus-project/lumus/issues"
     },
-    "homepage": "https://github.com/venututor/munch-ui#readme",
+    "homepage": "https://github.com/lumus-project/lumus#readme",
     "dependencies": {
         "@lumus/engine": "^0.0.12"
     }
