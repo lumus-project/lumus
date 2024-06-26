@@ -1,0 +1,26 @@
+{
+    "name": "@lumus-ui/react",
+    "version": "0.0.12",
+    "description": "All UI components resides here.",
+    "main": "./index.ts",
+    "scripts": {
+        "build": "tsc & rollup -c",
+        "dev": "npm-run-all --parallel watch:**",
+        "test": "jest",
+        "watch:tsc": "tsc --watch",
+        "watch:rollup": "rollup -c -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/venututor/munch-ui.git"
+    },
+    "author": "Venugopal Sundaram",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/venututor/munch-ui/issues"
+    },
+    "homepage": "https://github.com/venututor/munch-ui#readme",
+    "dependencies": {
+        "@lumus/engine": "^0.0.12"
+    }
+}

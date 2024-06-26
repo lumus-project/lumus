@@ -1,0 +1,25 @@
+{
+    "name": "@lumus/engine",
+    "version": "0.0.12",
+    "description": "This will generate react component without unused conditions or expressions",
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "types": "dist/types/index.d.ts",
+    "scripts": {
+        "build": "tsc & rollup -c",
+        "dev": "npm-run-all --parallel watch:**",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch:tsc": "tsc --watch",
+        "watch:rollup": "rollup -c -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/venututor/munch-ui.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/venututor/munch-ui/issues"
+    },
+    "homepage": "https://github.com/venututor/munch-ui#readme"
+}

@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "declarationDir": "dist/types",
+        "emitDeclarationOnly": true
+    },
+    "extends": "../../tsconfig.base.json",
+    "include": ["src", "index.ts"],
+    "exclude": ["dist", "node_modules", "**/*.spec.{tsx,ts}", "**/*.stories.{tsx,ts}"]
+}
