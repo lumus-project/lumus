@@ -2,7 +2,9 @@
     "name": "@lumus-ui/react",
     "version": "0.0.1",
     "description": "All UI components resides here.",
-    "main": "./index.ts",
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "types": "dist/types/index.d.ts",
     "scripts": {
         "build": "tsc & rollup -c",
         "dev": "npm-run-all --parallel watch:**",
