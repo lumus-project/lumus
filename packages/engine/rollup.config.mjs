@@ -3,11 +3,8 @@ import resolve from '@rollup/plugin-node-resolve';
 import typescript from '@rollup/plugin-typescript';
 import { terser } from 'rollup-plugin-terser';
 
-import packageJson from './package.json';
+import packageJson from './package.json' assert { type: 'json' };
 
-/**
- * @type {import('rollup').RollupOptions}
- */
 export default {
     input: './index.ts',
     treeshake: true,
@@ -29,5 +26,5 @@ export default {
         commonjs(),
         typescript({ declaration: false, declarationDir: undefined, declarationMap: false }),
     ],
-    external: ['react', 'react-dom', '@lumus/engine'],
+    external: ['react', 'react-dom'],
 };

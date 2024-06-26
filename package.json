@@ -13,8 +13,8 @@
         "storybook": "storybook dev -p 6006",
         "test": "jest",
         "test:watch": "jest --watch",
-        "watch:react": "cd ./packages/react && yarn dev",
-        "watch:engine": "cd ./packages/engine && yarn dev"
+        "watch:react": "cd ./packages/react && yarn watch:rollup",
+        "watch:engine": "cd ./packages/engine && yarn watch:rollup"
     },
     "repository": {
         "type": "git",
